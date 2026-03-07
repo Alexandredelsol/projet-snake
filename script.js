@@ -181,7 +181,7 @@ function settings() {
         isPaused = true;
 
 
-        loseDialog.showModal()
+        loseDialog.showModal();
     })
 }
 
@@ -215,8 +215,12 @@ function restartGame() {
 }
 
 // Gestion des touches
+
 function handleKeyDown(e) {
     document.addEventListener('keydown', function (e) {
+        if (["ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight"].includes(e.key)) {
+            e.preventDefault();
+        }
         if (direction.x !== 1 && e.key === "ArrowLeft" || e.key === "q") {
             direction = {x: -1, y: 0};
         }
