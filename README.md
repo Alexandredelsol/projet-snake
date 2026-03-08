@@ -72,5 +72,5 @@ snake-game/
 
 ![Snake Game Demo](assets/snake-game.gif)
 
-[Live demo](https://alexandredelsol.github.io/projet-snake/)
+[Live demo](https://alexandre-delsol.github.io/projet-snake/)
 
