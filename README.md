@@ -1,5 +1,7 @@
 # 🐍 Snake Game
 
+[![Snake Game](https://github-readme-stats.vercel.app/api/pin/?username=Alexandredelsol&repo=projet-snake)](https://github.com/Alexandredelsol/projet-snake)
+
 A classic **Snake Game** built with **Vanilla JavaScript, HTML, and CSS**. This project demonstrates fundamental front-end skills, including **DOM manipulation, keyboard input handling, game loops, collision detection, and responsive canvas design**.
 
 ---
